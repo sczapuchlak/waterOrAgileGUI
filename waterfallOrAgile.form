@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.stephanie.waterfallOrAgile">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="815" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="Quit"/>
+    <children>
+      <component id="6c4a0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Should you use Agile or Waterfall Methodology?&#10;Let's Find Out!"/>
+        </properties>
+      </component>
+      <vspacer id="926a9">
+        <constraints>
+          <grid row="1" column="2" row-span="7" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="cd82" class="javax.swing.JLabel" binding="whatIsProjectName">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="What is your projects name?"/>
+        </properties>
+      </component>
+      <component id="30e4e" class="javax.swing.JTextField" binding="projectName">
+        <constraints>
+          <grid row="1" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="23418" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="6" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check all that apply:"/>
+        </properties>
+      </component>
+      <component id="f9774" class="javax.swing.JCheckBox" binding="haveMoreThan4CheckBox" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="You have more than 4 programmers on the team."/>
+        </properties>
+      </component>
+      <component id="f0b8c" class="javax.swing.JCheckBox" binding="needToHaveFirmCheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" You need to have firm deadlines and a fixed schedule."/>
+        </properties>
+      </component>
+      <component id="7a6a5" class="javax.swing.JCheckBox" binding="doTheProgrammersHaveCheckBox" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="The programmers have experience in requirements, analysis, and testing as well as coding."/>
+        </properties>
+      </component>
+      <component id="91e9b" class="javax.swing.JCheckBox" binding="areThereStringentQualityCheckBox" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="There stringent quality control requirements."/>
+        </properties>
+      </component>
+      <component id="5ff77" class="javax.swing.JCheckBox" binding="isEarlyIntegrationDesirableCheckBox" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Early integration is desirable."/>
+        </properties>
+      </component>
+      <component id="cb930" class="javax.swing.JCheckBox" binding="willTheCustomerBeCheckBox" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="The customer be requiring working models early in the process."/>
+        </properties>
+      </component>
+      <component id="8fc2a" class="javax.swing.JButton" binding="quitButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Quit"/>
+        </properties>
+      </component>
+      <component id="3e12b" class="javax.swing.JButton" binding="clickForResultsButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Click for Results!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
